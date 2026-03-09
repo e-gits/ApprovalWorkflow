@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Your own server",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "OnPrem",
+            "server": "http://localhost:8080/BC200/",
+            "serverInstance": "BC200",
+            "authentication": "Windows"
+            ,
+            "port" : 7049,
+            "breakOnError": "All",
+            "launchBrowser": true,
+           
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
+
